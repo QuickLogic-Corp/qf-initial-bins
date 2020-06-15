@@ -13,3 +13,4 @@ Use J-LINK to load and run qf_loadflash.bin and then use the TinyFPGA-programmer
 ```sh
 python3 TinyFPGA-Programmer-Application/tinfpga-programmer-gui --port COMXXX --mfgpkg quickfeather-initial-binaries
 ```
+
