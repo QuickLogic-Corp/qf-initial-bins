@@ -9,7 +9,7 @@ This repo contains the three binaries that are used to initialize a QuickFeather
 This repos also contains a utility program, qf_loadflash.bin, that can be loaded by J-LINK and used top program the QuickFeather.
 
 # Recovering a 'bricked' QuickFeather
-Use J-LINK to load and run qf_loadflash.bin and then use the TinyFPGA-programmer-application to resore the factgory programming:
+Use J-LINK to load and run qf_loadflash.bin and then use the TinyFPGA-programmer-application to restore the factory programming:
 ```sh
-python3 TinyFPGA-Programmer-Application/tinfpga-programmer-gui --port COMXXX --mfgpkg qf-initial-bins
+python3 TinyFPGA-Programmer-Application/tinyfpga-programmer-gui --port COMXXX --mfgpkg qf-initial-bins
 ```
