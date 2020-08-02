@@ -11,5 +11,5 @@ This repo also contains a utility program, qf_loadflash.bin, that can be loaded 
 # Recovering a 'bricked' QuickFeather
 Use J-LINK to load and run qf_loadflash.bin and then use the TinyFPGA-programmer-application to restore the factory programming:
 ```sh
-python3 TinyFPGA-Programmer-Application/tinyfpga-programmer-gui --port COMXXX --mfgpkg qf-initial-bins
+python3 TinyFPGA-Programmer-Application/tinyfpga-programmer-gui --port COMXXX --mfgpkg quickfeather-initial-binaries
 ```
